@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adam Weight Device Production Line</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="hero" id="top">
+    <nav class="nav">
+      <div class="brand">ADAM · WEIGHT DEVICE LINE</div>
+      <div class="links">
+        <a href="#process">Process</a>
+        <a href="#tools">Tools</a>
+        <a href="#hmi">HMI</a>
+        <a href="#results">Results</a>
+        <a href="https://github.com/mozoru7-hub/final-final" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <p class="tag">Advanced Programming Project</p>
+      <h1>Smart Weight Device Production Line</h1>
+      <p class="lead">
+        A simulated industrial production line that assembles, checks, measures, and stores
+        weight-device products using Python automation, a live HMI, and monitoring tools.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#process">View production flow</a>
+        <a class="button ghost" href="#tools">See tools used</a>
+        <a class="button github" href="https://github.com/mozoru7-hub/final-final" target="_blank" rel="noopener">View GitHub Repository</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section intro">
+      <div>
+        <p class="eyebrow">Project overview</p>
+        <h2>From raw parts to inspected weight devices</h2>
+      </div>
+      <p>
+        The project models a complete manufacturing workflow for digital weight devices.
+        Each product moves through stations for material loading, assembly, calibration,
+        weight verification, quality control, packaging, and storage. The goal is to show
+        how software can control and monitor a production line in a clear, realistic way.
+      </p>
+    </section>
+
+    <section class="section cards" id="process">
+      <article class="card wide">
+        <span class="number">01</span>
+        <h3>Material loading</h3>
+        <p>Base plates, sensor modules, displays, and housings enter the line as separate parts.</p>
+      </article>
+      <article class="card">
+        <span class="number">02</span>
+        <h3>Assembly</h3>
+        <p>The system combines the housing, load-cell sensor, electronics, and display into one device.</p>
+      </article>
+      <article class="card">
+        <span class="number">03</span>
+        <h3>Calibration</h3>
+        <p>Known reference values are used to prepare the device for accurate measurement.</p>
+      </article>
+      <article class="card">
+        <span class="number">04</span>
+        <h3>Weight test</h3>
+        <p>The product is tested against simulated measurement data to detect incorrect readings.</p>
+      </article>
+      <article class="card">
+        <span class="number">05</span>
+        <h3>Quality decision</h3>
+        <p>Passed products move forward. Failed products are rejected and counted by the system.</p>
+      </article>
+      <article class="card wide">
+        <span class="number">06</span>
+        <h3>Packaging and storage</h3>
+        <p>Approved devices are packaged, logged, and added to the final production output.</p>
+      </article>
+    </section>
+
+    <section class="section split" id="tools">
+      <div>
+        <p class="eyebrow">Tools used</p>
+        <h2>Software stack</h2>
+        <p>
+          The project combines programming, interface design, testing, and container-based monitoring.
+          This makes the line easy to run, observe, and explain during presentation.
+        </p>
+      </div>
+      <div class="tool-grid">
+        <div class="tool"><strong>Python</strong><span>Production logic and simulation</span></div>
+        <div class="tool"><strong>Tkinter</strong><span>Human Machine Interface</span></div>
+        <div class="tool"><strong>Docker</strong><span>Repeatable runtime environment</span></div>
+        <div class="tool"><strong>Grafana</strong><span>Dashboard visualization</span></div>
+        <div class="tool"><strong>InfluxDB</strong><span>Time-series production data</span></div>
+        <div class="tool"><strong>GitHub Pages</strong><span>Public project website</span></div>
+      </div>
+    </section>
+
+    <section class="section dark" id="hmi">
+      <div class="panel">
+        <p class="eyebrow">HMI and monitoring</p>
+        <h2>Operator control and live feedback</h2>
+        <p>
+          The HMI gives the operator buttons and status information for starting, stopping,
+          resetting, and observing the line. Monitoring dashboards can show accepted products,
+          rejected products, cycle count, and simulated measurement values.
+        </p>
+      </div>
+      <div class="screen">
+        <div class="screen-bar"><span></span><span></span><span></span></div>
+        <div class="metric"><b>Line Status</b><em>Running</em></div>
+        <div class="metric"><b>Accepted</b><em>142</em></div>
+        <div class="metric"><b>Rejected</b><em>6</em></div>
+        <div class="metric"><b>Current Weight</b><em>499.8 g</em></div>
+      </div>
+    </section>
+
+    <section class="section repo" id="repo">
+      <div>
+        <p class="eyebrow">Source code</p>
+        <h2>GitHub repository</h2>
+        <p>
+          The complete project files, website code, and production line implementation are available in my GitHub repository.
+        </p>
+      </div>
+      <a class="repo-card" href="https://github.com/mozoru7-hub/final-final" target="_blank" rel="noopener">
+        <span>github.com/mozoru7-hub/final-final</span>
+        <strong>Open Repository →</strong>
+      </a>
+    </section>
+
+    <section class="section results" id="results">
+      <p class="eyebrow">Project result</p>
+      <h2>What the project demonstrates</h2>
+      <div class="result-list">
+        <p>✔ Object-oriented programming for production stations and product flow.</p>
+        <p>✔ A working user interface for line control and status display.</p>
+        <p>✔ Simulated quality inspection for pass/fail product decisions.</p>
+        <p>✔ Monitoring-ready data for production performance and troubleshooting.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Created by Adam · Weight Device Production Line Project · <a href="https://github.com/mozoru7-hub/final-final" target="_blank" rel="noopener">GitHub Repository</a></p>
+    <a href="#top">Back to top</a>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
